@@ -1,0 +1,10 @@
+Socket-Based Life
+=================
+Socket-Based Life (SBL) is a massively parallel implementation of Conway's
+Game of Life.  It doesn't do any useful work at all.  Instead, it's purpose
+is simply to test my knowledge of sockets.
+
+The basic idea behind the Game of Life is that there are a number of cells and
+that status of each depends of that of its neighbors.  In this
+implementation, cells can be either alive or dead and a rule is provided for
+deciding how this boolean status should change after each round.
